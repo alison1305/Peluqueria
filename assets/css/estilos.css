@@ -134,7 +134,6 @@ a {
     border-bottom-width: 2px
 }
 
-
 .visualizador {
     display: flex;
     justify-content: center;
@@ -157,21 +156,12 @@ a {
     bottom: 0;
 }
 
-.btn-square {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    width: 56px;
-    height: 56px;
-}
-
 .sucursal-img {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     z-index: 1;
+    background: #000000 !important;
 }
 
 .sucursal-overlay {
@@ -207,7 +197,7 @@ a {
     display: flex;
     align-items: center;
     padding: 30px;
-    background-color: #f8f9fa;
+    background-color: #e7e9ea;
 }
 
 .acerca-de .imagen img {
@@ -240,7 +230,7 @@ a {
 .tab-class .nav-item a:hover {
     background-color: black;
     color: white;
-    border-color: white;
+    border-color: rgb(0, 0, 0);
 }
 
 .tab-class .nav-item a:hover i {
@@ -265,16 +255,26 @@ a {
 }
 
 .img-sello-agua {
-    background: linear-gradient(rgba(32, 32, 32, 0.562), rgba(32, 32, 32, 0.562)), url('../img/peines3.jpeg');
-}
-
-.container-fluid2 {
-    background-color: #808080;
-    color: white;
-    padding-top: 5vw;
-    padding-bottom: 5vw;
+    background: linear-gradient(rgba(199, 197, 197, 0.518), rgba(199, 197, 197, 0.518)), url('../img/peines3.jpeg');
 }
 
 .text-black {
     color: black !important;
+}
+
+.btn-primary {
+    background-color: #1c1c1c !important;
+    color: #ffffff !important;
+    border-color: #000000 !important;
+}
+
+.btn-primary:hover {
+    background-color: #f1f1f1 !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.bg-white2 {
+    background-color: #ffffff !important;
+    border: #000000 1px !important;
 }
