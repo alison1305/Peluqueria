@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer__lista {
+    display: flex;
+    list-style: none;
+}
+
+.footer__icon {
+    margin-right: 1.25rem;
+}
+
+.footer__icon:hover {
+    border-radius: 50%;
+    background-color: #ffffff44
+}
+
+
+.btn-circulo {
+    border-radius: 50%;
+}

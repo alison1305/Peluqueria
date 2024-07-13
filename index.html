@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Arce Salon</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/estilos.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100px" class="bg-primario">
+
+  <!--Barra Superior-->
+  <div class="navbar1 bs-com bg-primario text-white container-fluid m-0" id="navbar1">
+    <div class="row">
+      <div class="col-md-4 col-lg-4 text-center text-lg-start m-0">
+        <div class="d-inline-flex align-items-center" style="height: 45px;">
+          <h1 class="site-name text-white"><img src="assets/img/logo.png" class="mx-1"
+              style="width: 40px; height: 40px;">ANTHONY
+            ARCE SALON</h1>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-6 text-center text-lg-start m-0 d-flex justify-content-center">
+        <div class="d-inline-flex align-items-center" style="height: 45px;">
+          <a href="" class="bs-item text-white ">TIENDA</a>
+          <a href="#sucursal" class="bs-item text-white">SALONES</a>
+          <a href="#acerca-de" class="bs-item text-white">ACERCA DE</a>
+          <a href="" class="bs-item text-white">NUESTRO TRABAJO</a>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2 text-center text-lg-end m-0">
+        <div class="d-inline-flex align-items-center d-flex justify-content-center" style="height: 45px;">
+          <a href="" class="bs-icon text-white"><i class="fa-solid fa-magnifying-glass"></i></i></a>
+          <a href="" class="bs-icon text-white"><i class="fa-solid fa-user"></i></a>
+          <a href="" class="bs-icon text-white"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="assets/img/carousel-1.webp" class="d-block w-100" alt="...">
+        <div class="cc1 carousel-caption">
+          <h1>Descubre un Estilo Único</h>
+            <p>Transformaciones icónicas para un look irresistible</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/carousel-2.gif" class="d-block w-100" alt="...">
+        <div class="cc1 carousel-caption">
+          <h1>Servicios de Peluquería de Primera Clase</h>
+            <p>Desde cortes clásicos hasta tendencias modernas, lo hacemos todo</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="assets/img/carousel-3.webp" class="d-block w-100" alt="...">
+        <div class="cc1 carousel-caption">
+          <h1>Transformaciones Capilares Increíbles</h>
+            <p>Experimenta un nuevo look con nuestros expertos estilistas</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container-fluid bg-servicios py-5" id="productos">
+    <div class="container">
+      <div class="text-center mx-auto">
+        <h2 class="servicioTitulo text-uppercase mb-4">Productos más vendidos</h2>
+        <h4 class="sucursalSubtitulo mb-5">Las Sedes Anthony Arce te esperan para transformar tu imagen. Experimenta un
+          servicio de alta calidad en belleza y estilismo. ¡Visítanos hoy!</h4>
+      </div>
+      <div class="container-fluid products">
+        <div class="visualizador row">
+          <div class="col-md-3 col-lg-3 product">
+            <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+            <p class="text-white text-center">Shampoo</p>
+          </div>
+          <div class="col-md-3 col-lg-3 product">
+            <img src="assets/img/acondicionador.webp" class="d-block w-100 img-fluid">
+            <p class="text-white text-center">Acondicionador</p>
+          </div>
+          <div class="col-md-3 col-lg-3 product">
+            <img src="assets/img/crema.webp" class="d-block w-100 img-fluid">
+            <p class="text-white text-center">Crema</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- SEDES DE LOS SALONES INICIO -->
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar1" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+    class="container-fluid bg-servicios py-3 scrollspy-example p-3 rounded-2" tabindex="0" id="sucursal">
+    <div class="container">
+      <div class="text-center mx-auto">
+        <h2 class="servicioTitulo text-uppercase mb-4">Salones</h2>
+        <h4 class="sucursalSubtitulo mb-5">Las Sedes Anthony Arce te esperan para transformar tu imagen. Experimenta
+          un
+          servicio de alta calidad en belleza y estilismo. ¡Visítanos hoy!</h4>
+      </div>
+      <div class="container">
+        <div class="tab-content">
+          <div id="tab-1" class=" tab-pane fade show p-0 active">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="sucursal-img h-100 background-img">
+                  <img class="img-fluid rounded w-100" src="assets/img/surco.jpg">
+                  <div class="sucursal-overlay p-4">
+                    <a href="https://wa.link/e9kxrf"
+                      class="btn bg-primario text-white rounded-pill py-2 px-3 btn-descubre border">Visitar</a>
+                    <h4 class="text-white mb-2 mt-2">Monterrico, Santiago de Surco</h4>
+                    <p class="text-white">Av. Primavera 1866 <i class="fa-solid fa-arrow-right"
+                        style="background: none;"></i></>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="sucursal-img h-100">
+                  <img class="img-fluid rounded w-100" src="assets/img/lince.jpg">
+                  <div class="sucursal-overlay p-4">
+                    <a href="https://wa.link/p2hxu1"
+                      class="btn bg-primario text-white rounded-pill py-2 px-3 btn-descubre border">Visitar</a>
+                    <h4 class="text-white mb-2 mt-2">Lince</h4>
+                    <p class="text-white ">Av. Cesar Vallejo 129 <i class="fa-solid fa-arrow-right"
+                        style="background: none;"></i></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="sucursal-img h-100">
+                  <img class="img-fluid rounded w-100 h-100" src="assets/img/losolivos.png">
+                  <div class="sucursal-overlay p-4">
+                    <a href="https://wa.link/nmxexr"
+                      class="btn bg-primario text-white rounded-pill py-2 px-3 btn-descubre border">Visitar</a>
+                    <h4 class="text-white mb-2 mt-2">Los Olivos</h4>
+                    <p class=" text-white ">Av. Carlos Izaguirre 1100 <i class="fa-solid fa-arrow-right"
+                        style="background: none;"></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SEDES DE LOS SALONES FIN -->
+
+  <div class="container bg-primario text-white py-3">
+    <div class="col-lg-12">
+      <h4 class="mb-3">Sacar una cita</h4>
+      <form class="needs-validation" novalidate="">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName" class="mb-2">Nombre</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Ingresa tus nombres" value=""
+              required="" required>
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName" class="mb-2">Apellidos</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Ingresa tus apellidos" value=""
+              required="" required>
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="mb-2" for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            <div class="invalid-feedback">
+              Ingresa tu mejor email.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="serviceRequested" class="form-label">Sede</label>
+            <select class="form-select" id="serviceRequested" required>
+              <option value="" disabled selected>Selecciona tu salón más cercano</option>
+              <option value="surco">Surco</option>
+              <option value="lince">Lince</option>
+              <option value="losolivos">Los Olivos</option>
+              <option value="other">Otro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <label for="appointmentDate" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="appointmentDate" required>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+
+          <div class="col-md-5 mb-3">
+            <label for="appointmentDate" class="form-label">Hora</label>
+            <input type="time" class="form-control" id="appointmentTime" required>
+            <div class="invalid-feedback">
+              Please provide a valid state.
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <label for="serviceRequested" class="form-label">Servicio requerido</label>
+            <select class="form-select" id="serviceRequested" required>
+              <option value="" disabled selected>Selecciona un servicio</option>
+              <option value="haircut">Corte</option>
+              <option value="coloring">Tinte</option>
+              <option value="styling">Estilizado</option>
+              <option value="other">Otro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-6">
+            <label for="preferredStylist" class="form-label">Seleccionar Estilista (Opcional)</label>
+            <select class="form-select" id="preferredStylist" required>
+              <option value="" disabled selected>Seleccionar Estilista</option>
+              <option value="stylist1">Estilista 1</option>
+              <option value="stylist2">Estilista 2</option>
+              <option value="stylist3">Estilista 3</option>
+              <option value="noPreference">Sin Preferencia</option>
+            </select>
+          </div>
+
+          <div class="col-md-6 mb-6">
+            <label for="phone" class="form-label">Número Telefónico</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Ingresa tu número" required>
+          </div>
+        </div>
+
+        <hr class="mb-4">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="save-info">
+          <label class="custom-control-label" for="save-info">Guardar esta información para la próxima</label>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Confirmar cita</button>
+      </form>
+    </div>
+  </div>
+  <!-- SECCIÓN ACERCA DE INICIO -->
+  <div class="container" id="acerca-de">
+    <div class="row acerca-de">
+      <div class="col-md-7 px-4">
+        <h2>Acerca de Nosotros</h2> <br>
+        <p style="text-align: justify;">En Anthony Arce Salon de Belleza, nos enorgullecemos de ofrecer un ambiente
+          cálido y de alta calidad, diseñado para que
+          cada cliente se sienta especial y único. Nuestros estilistas expertos le guiarán en la selección de los
+          mejores
+          servicios y tratamientos para resaltar su belleza natural y destacar su estilo personal. No somos solo un
+          salón de
+          belleza; somos un destino de bienestar y belleza donde la elegancia se combina con la excelencia para
+          brindarle una
+          experiencia incomparable. Confíe en nosotros para transformar su apariencia y aumentar su confianza con
+          resultados que
+          superarán sus expectativas.</p>
+      </div>
+      <div class="col-md-5 imagen px-3">
+        <img src="assets/img/acercade.webp" alt="Imagen de la peluquería">
+      </div>
+    </div>
+  </div>
+  <!-- SECCIÓN ACERCA DE FIN -->
+
+  <!-- SECCIÓN PRODUCTOS INICIO -->
+  <div class="container text-center">
+    <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-3 product h-100">
+          <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Shampoo</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product h-100">
+          <img src="assets/img/acondicionador.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Acondicionador</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product h-100">
+          <img src="assets/img/crema.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Crema</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product h-100">
+          <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Shampoo</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product">
+          <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Shampoo</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product">
+          <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Shampoo</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product">
+          <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Shampoo</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-3 product">
+          <img src="assets/img/shampoo.webp" class="d-block w-100 img-fluid">
+          <p class="text-white text-center text_producto">Shampoo</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- sección productos fin -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="assets/js/libreria.js"></script>
+</body>
+
+<footer class="footer">
+  <ul class="footer__lista">
+    <li class="footer__lista"><a class="footer__icon" href="https://www.google.com "><img
+          src="./assets/img/Instagram.png"></a></li>
+    <li class="footer__lista"><a class="footer__icon" href="https://www.google.com"><img
+          src="./assets/img/Facebook.png"></a></li>
+    <li class="footer__lista"><a class="footer__icon" href="https://www.google.com "><img
+          src="./assets/img/Whatsapp.png"></a></li>
+  </ul>
+</footer>
+
+</html>
